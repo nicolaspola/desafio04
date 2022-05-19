@@ -503,25 +503,26 @@ footer {
     .tituloIndex{
         font-size: 3.5rem;
         margin-top: 4rem;
-        animation: float 4s ease-in-out infinite;
+        animation: scale 4s alternate infinite;
     }
 
-    @keyframes float{
+    @keyframes scale{
         0%{
-            transform: translatey(0px);
+            transform: scale(1);
             
 
         }
 
         50%{
-            transform: translatey(-1rem);
+            transform: scale(1.02);
             
 
         }
 
         100%{
-            transform: translatey(0px);
+            transform: scale(1);
         }
+
     }
     .subtituloIndex{
         font-size: 1.2rem;
